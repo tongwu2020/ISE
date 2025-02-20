@@ -41,7 +41,13 @@ Config files `llama3_1/8B_full_Ba_base.yaml` is the training recipe for llama3.1
 
 ```bash
 cd recipes
-tune run --nproc_per_node 4 full_finetune_distributed --config configs/llama3_1/8B_full_Ba_base.yaml batch_size=4 gradient_accumulation_steps=8 output_dir="./output/model/Llama-3_1-8B-Ba_base/" checkpointer.output_dir="./models/Llama-3_1-8B-Base-Ba/" epochs=3 
+tune run --nproc_per_node 4 full_finetune_distributed \
+--config configs/llama3_1/8B_full_Ba_base.yaml \
+batch_size=4 \
+gradient_accumulation_steps=8 \
+output_dir="./output/model/Llama-3_1-8B-Ba_base/" \
+checkpointer.output_dir="./models/Llama-3_1-8B-Base-Ba/" \
+epochs=3 
 
 # We use 4 GPUs for training, you can change the number of GPUs by changing the --nproc_per_node argument, and change the batch size and gradient accumulation steps according to your GPU memory
 ```
