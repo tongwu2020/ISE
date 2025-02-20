@@ -23,7 +23,7 @@ Go to the `torchtune` folder for training and evaluation of ISE.
 
 ```bash
 # clone the repository
-git clone https://github.com/ISE-LLM/ISE.git
+git clone https://github.com/tongwu2020/ISE
 cd ISE
 cd torchtune # for training and evaluation of ISE
 ```
