@@ -20,7 +20,15 @@ tune download meta-llama/Meta-Llama-3.1-8B-Instruct --output-dir ./pretrained_mo
 
 ## Dataset
 
-For training data, we store the data in the `data/train_data` folder, and the evaluation data is stored in the `data/eval_data` folder.
+We provide the training data and evaluation data `https://www.dropbox.com/scl/fo/o2xx3ust6o52agayi1hwq/AAvP9lAgw5MNzKjbbCVfNrs?rlkey=8q68x3b9md7jj12na1vs614ai&st=w00kugel&dl=0`
+
+Please download the data and put them in the `data` folder.
+
+The data should be organized as follows:
+
+- Training data: Place all training datasets in the `data/train_data` folder
+- Evaluation data: Place all evaluation datasets in the `data/eval_data` folder
+
 
 
 ## Training
