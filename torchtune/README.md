@@ -14,9 +14,8 @@ pip install -e .["dev"]
 
 ```bash
 tune download meta-llama/Meta-Llama-3.1-8B-Instruct --output-dir ./pretrained_models/llama3_1_8B_base
-
-# you can download other models, please check the official documents of torchtune for more details
 ```
+Note: You can download other models, please check the official documents of torchtune for more details.
 
 ## Dataset
 
@@ -48,9 +47,8 @@ gradient_accumulation_steps=8 \
 output_dir="./output/model/Llama-3_1-8B-Ba_base/" \
 checkpointer.output_dir="./models/Llama-3_1-8B-Base-Ba/" \
 epochs=3 
-
-# We use 4 GPUs for training, you can change the number of GPUs by changing the --nproc_per_node argument, and change the batch size and gradient accumulation steps according to your GPU memory
 ```
+Note: We use 4 GPUs for training, you can change the number of GPUs by changing the `--nproc_per_node` argument, and change the batch size and gradient accumulation steps according to your GPU memory.
 
 
 ## Evaluation
