@@ -1,0 +1,9 @@
+
+
+/torchtune/models/*
+/torchtune/output/*
+/torchtune/data/*
+/torchtune/pretrained_models/*
+/torchtune/recipes/output/*
+/torchtune/recipes/models/*
+/torchtune/recipes/logs/*
