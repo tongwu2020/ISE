@@ -47,7 +47,7 @@ url={https://openreview.net/forum?id=sjWG7B8dvt}
 
 ## Questions
 
-If you have any questions, please contact me at tongwu@princeton.edu.
+There might be some bugs when I am cleaning the code. If you have any questions, please open an issue. 
 
 
 ## Disclaimer
