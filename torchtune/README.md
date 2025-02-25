@@ -69,7 +69,7 @@ checkpoint=$2 # the checkpoint number (0,1,2)
 dataset=$3 # the dataset name (share_gpt_attack_0) 
 
 python -u evaluate.py --config $config \
-    checkpointer.checkpoint_dir="/scratch/gpfs/tw6664/IH/torchtune/models/$model/" \
+    checkpointer.checkpoint_dir=$model \
     checkpointer.checkpoint_files=["meta_model_${checkpoint}.pt"] \
     device="cuda:0" \
     checkpointer.output_dir="../output/" \
