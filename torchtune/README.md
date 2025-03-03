@@ -10,10 +10,10 @@ pip install -r requirements.txt
 pip install -e .["dev"]
 ```
 
-## Download the pre-trained models
+## Download the pre-trained base models
 
 ```bash
-tune download meta-llama/Meta-Llama-3.1-8B-Instruct --output-dir ./pretrained_models/llama3_1_8B_base
+tune download meta-llama/Meta-Llama-3.1-8B --output-dir ./pretrained_models/llama3_1_8B_base
 ```
 Note: You can download other models, please check the official documents of torchtune for more details.
 
