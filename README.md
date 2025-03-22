@@ -1,5 +1,7 @@
 
-# Instructional Segment Embedding: Improving LLM Safety with Instruction Hierarchy
+# Instructional Segment Embedding: Improving LLM Safety with Instruction Hierarchy 
+
+[[Paper]](https://arxiv.org/abs/2410.09102)
 
 In Proceedings of the 8th International Conference on Learning Representations (ICLR 2025)
 
